@@ -1,101 +1,3566 @@
 {
-  "version": 2,
-  "name": "小学三年级上册（人教版）",
-  "author": "家长自制",
-  "license": "CC BY 4.0",
-  "items": [
-    {"type":"single","q":"1 分等于多少秒？","a":["10 秒","60 秒","100 秒"],"k":1,"difficulty":1,"tip":"1 分 = 60 秒。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"boolean","q":"秒针在钟面上走一圈，就是 1 分钟。","k":0,"difficulty":1,"tip":"秒针走一圈是 60 秒，也就是 1 分钟。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"text","q":"60 秒 = ( ) 分","answers":["1","1分","1 分"],"difficulty":1,"tip":"60 秒正好是 1 分。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"分针从数字 7 走到数字 9，经过多长时间？","a":["1 分钟","10 分钟","2 分钟"],"k":1,"difficulty":2,"tip":"分针走一大格是 5 分，走 2 大格是 10 分。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"一节课 40 分钟，课间休息 10 分钟，一共多长时间？","a":["30 分钟","50 分钟","60 分钟"],"k":1,"difficulty":1,"tip":"40 + 10 = 50（分钟）。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"boolean","q":"1 小时 = 100 分。","k":1,"difficulty":1,"tip":"1 小时 = 60 分，不是 100 分。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"小明 7:30 从家出发，走了 20 分钟到学校，他几点到学校？","a":["7:40","7:50","8:00"],"k":1,"difficulty":2,"tip":"30 分 + 20 分 = 50 分，所以是 7:50。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"text","q":"3 分 = ( ) 秒","answers":["180","180秒","180 秒"],"difficulty":2,"tip":"1 分 = 60 秒，3 分 = 60 × 3 = 180 秒。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"356 + 244 = ?","a":["590","600","610"],"k":1,"difficulty":2,"tip":"356 + 244 = 600。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"800 - 275 = ?","a":["525","535","625"],"k":0,"difficulty":2,"tip":"个位 0 减 5 要退位：800 - 275 = 525。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"text","q":"500 - 128 = ( )","answers":["372"],"difficulty":2,"tip":"500 - 128 = 372。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"boolean","q":"列竖式计算加法时，个位要和个位对齐。","k":0,"difficulty":1,"tip":"相同数位要对齐，个位对个位、十位对十位。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"一件上衣 268 元，一双鞋 132 元，一共多少元？","a":["390 元","400 元","410 元"],"k":1,"difficulty":2,"tip":"268 + 132 = 400（元）。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"text","q":"720 - 350 = ( )","answers":["370"],"difficulty":2,"tip":"720 - 350 = 370。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"最大的三位数减去最小的三位数，差是多少？","a":["899","900","999"],"k":0,"difficulty":3,"tip":"999 - 100 = 899。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"boolean","q":"45 + 55 和 55 + 45 的结果相同。","k":0,"difficulty":1,"tip":"交换两个加数的位置，和不变。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"1 千米 = ? 米","a":["100 米","1000 米","10000 米"],"k":1,"difficulty":1,"tip":"1 千米 = 1000 米。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"1 吨 = ? 千克","a":["100 千克","1000 千克","10 千克"],"k":1,"difficulty":1,"tip":"1 吨 = 1000 千克。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"text","q":"1 分米 = ( ) 厘米","answers":["10","10厘米","10 厘米"],"difficulty":1,"tip":"1 分米 = 10 厘米。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"boolean","q":"一枚硬币的厚度大约是 2 毫米。","k":0,"difficulty":2,"tip":"硬币很薄，用毫米量比较合适。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"一支新铅笔大约长 18（ ）。","a":["毫米","厘米","米"],"k":1,"difficulty":2,"tip":"18 厘米和一支铅笔的长度差不多。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"一头大象的体重约是 4（ ）。","a":["克","千克","吨"],"k":2,"difficulty":2,"tip":"大象很重，用吨做单位。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"text","q":"5 千米 = ( ) 米","answers":["5000","5000米","5000 米"],"difficulty":2,"tip":"1 千米 = 1000 米，5 千米 = 5000 米。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"boolean","q":"1 米 = 100 毫米。","k":1,"difficulty":2,"tip":"1 米 = 10 分米 = 100 厘米 = 1000 毫米。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"一本数学书厚约 6（ ）。","a":["毫米","厘米","分米"],"k":0,"difficulty":2,"tip":"书本厚度用毫米比较合适。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"6 是 2 的几倍？","a":["2 倍","3 倍","4 倍"],"k":1,"difficulty":1,"tip":"6 ÷ 2 = 3，所以是 3 倍。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"text","q":"8 的 4 倍是（ ）","answers":["32"],"difficulty":2,"tip":"求一个数的几倍用乘法：8 × 4 = 32。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"有 5 个苹果，梨的个数是苹果的 3 倍，梨有多少个？","a":["8 个","15 个","10 个"],"k":1,"difficulty":2,"tip":"5 × 3 = 15（个）。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"boolean","q":"求一个数的几倍是多少，用乘法计算。","k":0,"difficulty":1,"tip":"几倍就是把这个数乘几。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"24 是 8 的几倍？","a":["2 倍","3 倍","4 倍"],"k":1,"difficulty":2,"tip":"24 ÷ 8 = 3。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"23 × 3 = ?","a":["59","69","79"],"k":1,"difficulty":1,"tip":"20 × 3 = 60，3 × 3 = 9，合起来是 69。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"text","q":"112 × 4 = ( )","answers":["448"],"difficulty":2,"tip":"100 × 4 = 400，12 × 4 = 48，合起来 448。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"205 × 4 = ?","a":["800","820","840"],"k":1,"difficulty":2,"tip":"200 × 4 = 800，5 × 4 = 20，合起来 820。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"boolean","q":"0 和任何数相乘都得 0。","k":0,"difficulty":1,"tip":"0 × 任何数 = 0。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"text","q":"38 × 2 = ( )","answers":["76"],"difficulty":1,"tip":"30 × 2 = 60，8 × 2 = 16，合起来 76。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"每盒有 12 支笔，5 盒一共多少支？","a":["50 支","60 支","70 支"],"k":1,"difficulty":2,"tip":"12 × 5 = 60（支）。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"一位数乘三位数，积最多是几位数？","a":["三位数","四位数","五位数"],"k":1,"difficulty":3,"tip":"最大的情况是 9 × 999 = 8991，是四位数。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"text","q":"80 × 7 = ( )","answers":["560"],"difficulty":2,"tip":"8 × 7 = 56，后面添一个 0，得 560。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"正方形边长 5 厘米，它的周长是多少？","a":["10 厘米","20 厘米","25 厘米"],"k":1,"difficulty":1,"tip":"正方形周长 = 边长 × 4 = 5 × 4 = 20（厘米）。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"text","q":"长方形长 6 厘米、宽 4 厘米，周长是（ ）厘米","answers":["20","20厘米","20 厘米"],"difficulty":2,"tip":"(6 + 4) × 2 = 20（厘米）。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"boolean","q":"图形的周长就是围成这个图形一周的长度。","k":0,"difficulty":1,"tip":"周长是封闭图形一周的长度。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"长 8 厘米、宽 3 厘米的长方形，周长是多少？","a":["11 厘米","22 厘米","24 厘米"],"k":1,"difficulty":2,"tip":"(8 + 3) × 2 = 22（厘米）。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"text","q":"一个正方形的周长是 24 厘米，它的边长是（ ）厘米","answers":["6","6厘米","6 厘米"],"difficulty":3,"tip":"24 ÷ 4 = 6（厘米）。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"用一根 12 厘米长的铁丝正好围成一个正方形，边长是多少？","a":["2 厘米","3 厘米","4 厘米"],"k":1,"difficulty":3,"tip":"12 ÷ 4 = 3（厘米）。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"把一个饼平均分成 4 份，每份是这个饼的几分之几？","a":["四分之一","四分之二","二分之一"],"k":0,"difficulty":1,"tip":"平均分成 4 份，每份是四分之一，写作 1/4。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"boolean","q":"分子都是 1 时，分母越大，这个分数越小。","k":0,"difficulty":3,"tip":"分的份数越多，每份越小，所以 1/5 比 1/3 小。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"3/5 读作什么？","a":["五分之三","三分之五","三五分之"],"k":0,"difficulty":1,"tip":"先读分母再读分子：五分之三。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"text","q":"一个西瓜平均切成 8 块，吃了 3 块，吃了几分之几？（写成 3/8 这样的形式）","answers":["3/8","八分之三"],"difficulty":2,"tip":"8 份里取了 3 份，是 3/8。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"1/2 和 1/3 哪个大？","a":["1/2 大","1/3 大","一样大"],"k":0,"difficulty":2,"tip":"分母小的分数大，所以 1/2 大于 1/3。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"boolean","q":"分母相同的两个分数，分子大的那个分数大。","k":0,"difficulty":2,"tip":"分母相同表示每份一样大，分子多的就拿得多。","subject":"数学","level":"三年级","bank":"三年级上册·数学"},
-    {"type":"single","q":"《铺满金色巴掌的水泥道》中“铺”的读音是？","a":["pū","pù","bū"],"k":0,"difficulty":2,"tip":"这里表示把落叶铺在地上，读 pū。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"single","q":"下面词语书写完全正确的是哪一项？","a":["明朗","朗明","郎朗"],"k":0,"difficulty":2,"tip":"课文里用的是“明朗”，意思是晴朗、明亮。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"text","q":"古诗《山行》的作者是唐代的（ ）","answers":["杜牧"],"difficulty":2,"tip":"《山行》是唐代诗人杜牧写的。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"single","q":"《山行》中“停车坐爱枫林晚”的“坐”是什么意思？","a":["坐下","因为","座位"],"k":1,"difficulty":3,"tip":"这里的“坐”是“因为”的意思。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"text","q":"《赠刘景文》中“一年好景君须记”的下一句是（ ）","answers":["最是橙黄橘绿时"],"difficulty":3,"tip":"原句：一年好景君须记，最是橙黄橘绿时。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"single","q":"《夜书所见》的作者是谁？","a":["叶绍翁","杜牧","苏轼"],"k":0,"difficulty":2,"tip":"《夜书所见》是宋代叶绍翁的作品。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"boolean","q":"“遥望洞庭山水翠”出自刘禹锡的《望洞庭》。","k":0,"difficulty":2,"tip":"《望洞庭》是唐代刘禹锡写的。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"single","q":"《饮湖上初晴后雨》写的是哪一处风景？","a":["西湖","洞庭湖","长江"],"k":0,"difficulty":2,"tip":"这首诗写的是西湖，名句是“欲把西湖比西子”。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"text","q":"《望天门山》的作者是（ ）","answers":["李白"],"difficulty":1,"tip":"《望天门山》是唐代李白写的。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"single","q":"“一把钥匙”中，量词“把”用在下面哪个词上最合适？","a":["钥匙","书本","大树"],"k":0,"difficulty":1,"tip":"钥匙、伞、刀这类用手拿的东西用“把”。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"text","q":"《司马光》中“群儿戏于庭”的“庭”指的是（ ）","answers":["庭院","院子","庭中"],"difficulty":3,"tip":"“庭”就是院子、庭院。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"single","q":"《司马光》中，那个孩子掉进了什么？","a":["水池","瓮","井"],"k":1,"difficulty":2,"tip":"原文是“一儿登瓮，足跌没水中”，掉进的是瓮。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"boolean","q":"《司马光》中“众皆弃去”的“去”是“离开”的意思。","k":0,"difficulty":3,"tip":"“弃去”就是丢下他跑开了。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"single","q":"“忽然”的近义词是哪一个？","a":["突然","慢慢","安静"],"k":0,"difficulty":1,"tip":"“忽然”和“突然”意思相近。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"single","q":"“快乐”的反义词是哪一个？","a":["高兴","悲伤","欢乐"],"k":1,"difficulty":1,"tip":"“快乐”和“悲伤”意思相反。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"boolean","q":"《一个粗瓷大碗》讲的是赵一曼的故事。","k":0,"difficulty":3,"tip":"课文写的是抗日英雄赵一曼。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"text","q":"“富饶”的“饶”读什么？（写拼音）","answers":["ráo","rao"],"difficulty":2,"tip":"“饶”读 r-á-o。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"single","q":"“秋天的雨，是一把钥匙。”这句话用了什么修辞手法？","a":["比喻","拟人","夸张"],"k":0,"difficulty":2,"tip":"把“秋天的雨”比作“一把钥匙”，是比喻。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"boolean","q":"《不懂就要问》讲的是孙中山小时候的故事。","k":0,"difficulty":2,"tip":"课文写孙中山在私塾读书时不懂就问。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"single","q":"《铺满金色巴掌的水泥道》中，“金色巴掌”指的是什么？","a":["梧桐树的落叶","金色的手套","地上的石头"],"k":0,"difficulty":2,"tip":"法国梧桐的落叶像金色的小巴掌。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"text","q":"补写古诗：天门中断楚江开，（ ）","answers":["碧水东流至此回"],"difficulty":4,"tip":"《望天门山》：天门中断楚江开，碧水东流至此回。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"single","q":"“停车坐爱枫林晚”的下一句是什么？","a":["霜叶红于二月花","最是橙黄橘绿时","碧水东流至此回"],"k":0,"difficulty":3,"tip":"霜叶红于二月花。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"boolean","q":"《听听，秋的声音》中写到“大树抖抖手臂”，这是把大树当人来写。","k":0,"difficulty":3,"tip":"“抖抖手臂”是把物当人写，属拟人。","subject":"语文","level":"三年级","bank":"三年级上册·语文"},
-    {"type":"single","q":"“红色”用英语怎么说？","a":["red","blue","green"],"k":0,"difficulty":1,"tip":"red 是红色。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"text","q":"“蓝色”用英语怎么说？","answers":["blue"],"difficulty":1,"tip":"blue 是蓝色。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"single","q":"“Good morning!”是什么意思？","a":["早上好","晚上好","再见"],"k":0,"difficulty":1,"tip":"Good morning 是早上好。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"text","q":"“黄色”用英语怎么说？","answers":["yellow"],"difficulty":1,"tip":"yellow 是黄色。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"single","q":"“眼睛”用英语怎么说？","a":["eye","ear","nose"],"k":0,"difficulty":1,"tip":"eye 是眼睛，ear 是耳朵，nose 是鼻子。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"text","q":"“鼻子”用英语怎么说？","answers":["nose"],"difficulty":1,"tip":"nose 是鼻子。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"single","q":"“猴子”用英语怎么说？","a":["monkey","duck","pig"],"k":0,"difficulty":1,"tip":"monkey 是猴子。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"text","q":"“大象”用英语怎么说？","answers":["elephant"],"difficulty":1,"tip":"elephant 是大象。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"single","q":"“面包”用英语怎么说？","a":["bread","milk","egg"],"k":0,"difficulty":1,"tip":"bread 是面包。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"text","q":"“牛奶”用英语怎么说？","answers":["milk"],"difficulty":1,"tip":"milk 是牛奶。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"single","q":"“Happy birthday!”是什么意思？","a":["生日快乐","新年快乐","早上好"],"k":0,"difficulty":1,"tip":"Happy birthday 是生日快乐。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"text","q":"数字 7 的英文怎么写？","answers":["seven"],"difficulty":1,"tip":"seven 是 7。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"boolean","q":"“Goodbye”的意思是你好。","k":1,"difficulty":1,"tip":"Goodbye 是再见，你好是 Hello。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"single","q":"下面哪个词不是颜色？","a":["green","duck","black"],"k":1,"difficulty":2,"tip":"duck 是鸭子，不是颜色。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"text","q":"“蛋糕”用英语怎么说？","answers":["cake"],"difficulty":1,"tip":"cake 是蛋糕。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"single","q":"“我有一只猫”用英语怎么说？","a":["I have a cat.","I have a dog.","I like a cat."],"k":0,"difficulty":3,"tip":"I have a cat. 我有一只猫。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"text","q":"“手”用英语怎么说？","answers":["hand"],"difficulty":1,"tip":"hand 是手。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"single","q":"“ten”表示数字几？","a":["8","9","10"],"k":2,"difficulty":1,"tip":"ten 是 10。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"boolean","q":"“Let's eat!”的意思是“让我们吃吧！”。","k":0,"difficulty":2,"tip":"Let's eat 就是一起吃的意思。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"},
-    {"type":"text","q":"“鸟”用英语怎么说？","answers":["bird"],"difficulty":1,"tip":"bird 是鸟。","subject":"英语","level":"三年级","bank":"三年级上册·英语","language":"en-US"}
-  ]
+ "version": 2,
+ "name": "小学三年级上册（人教版）",
+ "author": "家长自制",
+ "license": "CC BY 4.0",
+ "items": [
+  {
+   "type": "single",
+   "q": "1 分等于多少秒？",
+   "a": [
+    "10 秒",
+    "60 秒",
+    "100 秒"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "1 分 = 60 秒。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "秒针在钟面上走一圈，就是 1 分钟。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "秒针走一圈是 60 秒，也就是 1 分钟。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "60 秒 = ( ) 分",
+   "answers": [
+    "1",
+    "1分",
+    "1 分"
+   ],
+   "difficulty": 1,
+   "tip": "60 秒正好是 1 分。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "分针从数字 7 走到数字 9，经过多长时间？",
+   "a": [
+    "1 分钟",
+    "10 分钟",
+    "2 分钟"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "分针走一大格是 5 分，走 2 大格是 10 分。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "一节课 40 分钟，课间休息 10 分钟，一共多长时间？",
+   "a": [
+    "30 分钟",
+    "50 分钟",
+    "60 分钟"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "40 + 10 = 50（分钟）。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "1 小时 = 100 分。",
+   "k": 1,
+   "difficulty": 1,
+   "tip": "1 小时 = 60 分，不是 100 分。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "小明 7:30 从家出发，走了 20 分钟到学校，他几点到学校？",
+   "a": [
+    "7:40",
+    "7:50",
+    "8:00"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "30 分 + 20 分 = 50 分，所以是 7:50。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "3 分 = ( ) 秒",
+   "answers": [
+    "180",
+    "180秒",
+    "180 秒"
+   ],
+   "difficulty": 2,
+   "tip": "1 分 = 60 秒，3 分 = 60 × 3 = 180 秒。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "356 + 244 = ?",
+   "a": [
+    "590",
+    "600",
+    "610"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "356 + 244 = 600。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "800 - 275 = ?",
+   "a": [
+    "525",
+    "535",
+    "625"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "个位 0 减 5 要退位：800 - 275 = 525。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "500 - 128 = ( )",
+   "answers": [
+    "372"
+   ],
+   "difficulty": 2,
+   "tip": "500 - 128 = 372。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "列竖式计算加法时，个位要和个位对齐。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "相同数位要对齐，个位对个位、十位对十位。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "一件上衣 268 元，一双鞋 132 元，一共多少元？",
+   "a": [
+    "390 元",
+    "400 元",
+    "410 元"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "268 + 132 = 400（元）。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "720 - 350 = ( )",
+   "answers": [
+    "370"
+   ],
+   "difficulty": 2,
+   "tip": "720 - 350 = 370。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "最大的三位数减去最小的三位数，差是多少？",
+   "a": [
+    "899",
+    "900",
+    "999"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "999 - 100 = 899。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "45 + 55 和 55 + 45 的结果相同。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "交换两个加数的位置，和不变。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "1 千米 = ? 米",
+   "a": [
+    "100 米",
+    "1000 米",
+    "10000 米"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "1 千米 = 1000 米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "1 吨 = ? 千克",
+   "a": [
+    "100 千克",
+    "1000 千克",
+    "10 千克"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "1 吨 = 1000 千克。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "1 分米 = ( ) 厘米",
+   "answers": [
+    "10",
+    "10厘米",
+    "10 厘米"
+   ],
+   "difficulty": 1,
+   "tip": "1 分米 = 10 厘米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "一枚硬币的厚度大约是 2 毫米。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "硬币很薄，用毫米量比较合适。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "一支新铅笔大约长 18（ ）。",
+   "a": [
+    "毫米",
+    "厘米",
+    "米"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "18 厘米和一支铅笔的长度差不多。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "一头大象的体重约是 4（ ）。",
+   "a": [
+    "克",
+    "千克",
+    "吨"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "大象很重，用吨做单位。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "5 千米 = ( ) 米",
+   "answers": [
+    "5000",
+    "5000米",
+    "5000 米"
+   ],
+   "difficulty": 2,
+   "tip": "1 千米 = 1000 米，5 千米 = 5000 米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "1 米 = 100 毫米。",
+   "k": 1,
+   "difficulty": 2,
+   "tip": "1 米 = 10 分米 = 100 厘米 = 1000 毫米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "一本数学书厚约 6（ ）。",
+   "a": [
+    "毫米",
+    "厘米",
+    "分米"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "书本厚度用毫米比较合适。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "6 是 2 的几倍？",
+   "a": [
+    "2 倍",
+    "3 倍",
+    "4 倍"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "6 ÷ 2 = 3，所以是 3 倍。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "8 的 4 倍是（ ）",
+   "answers": [
+    "32"
+   ],
+   "difficulty": 2,
+   "tip": "求一个数的几倍用乘法：8 × 4 = 32。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "有 5 个苹果，梨的个数是苹果的 3 倍，梨有多少个？",
+   "a": [
+    "8 个",
+    "15 个",
+    "10 个"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "5 × 3 = 15（个）。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "求一个数的几倍是多少，用乘法计算。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "几倍就是把这个数乘几。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "24 是 8 的几倍？",
+   "a": [
+    "2 倍",
+    "3 倍",
+    "4 倍"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "24 ÷ 8 = 3。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "23 × 3 = ?",
+   "a": [
+    "59",
+    "69",
+    "79"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "20 × 3 = 60，3 × 3 = 9，合起来是 69。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "112 × 4 = ( )",
+   "answers": [
+    "448"
+   ],
+   "difficulty": 2,
+   "tip": "100 × 4 = 400，12 × 4 = 48，合起来 448。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "205 × 4 = ?",
+   "a": [
+    "800",
+    "820",
+    "840"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "200 × 4 = 800，5 × 4 = 20，合起来 820。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "0 和任何数相乘都得 0。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "0 × 任何数 = 0。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "38 × 2 = ( )",
+   "answers": [
+    "76"
+   ],
+   "difficulty": 1,
+   "tip": "30 × 2 = 60，8 × 2 = 16，合起来 76。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "每盒有 12 支笔，5 盒一共多少支？",
+   "a": [
+    "50 支",
+    "60 支",
+    "70 支"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "12 × 5 = 60（支）。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "一位数乘三位数，积最多是几位数？",
+   "a": [
+    "三位数",
+    "四位数",
+    "五位数"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "最大的情况是 9 × 999 = 8991，是四位数。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "80 × 7 = ( )",
+   "answers": [
+    "560"
+   ],
+   "difficulty": 2,
+   "tip": "8 × 7 = 56，后面添一个 0，得 560。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "正方形边长 5 厘米，它的周长是多少？",
+   "a": [
+    "10 厘米",
+    "20 厘米",
+    "25 厘米"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "正方形周长 = 边长 × 4 = 5 × 4 = 20（厘米）。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "长方形长 6 厘米、宽 4 厘米，周长是（ ）厘米",
+   "answers": [
+    "20",
+    "20厘米",
+    "20 厘米"
+   ],
+   "difficulty": 2,
+   "tip": "(6 + 4) × 2 = 20（厘米）。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "图形的周长就是围成这个图形一周的长度。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "周长是封闭图形一周的长度。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "长 8 厘米、宽 3 厘米的长方形，周长是多少？",
+   "a": [
+    "11 厘米",
+    "22 厘米",
+    "24 厘米"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "(8 + 3) × 2 = 22（厘米）。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "一个正方形的周长是 24 厘米，它的边长是（ ）厘米",
+   "answers": [
+    "6",
+    "6厘米",
+    "6 厘米"
+   ],
+   "difficulty": 3,
+   "tip": "24 ÷ 4 = 6（厘米）。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "用一根 12 厘米长的铁丝正好围成一个正方形，边长是多少？",
+   "a": [
+    "2 厘米",
+    "3 厘米",
+    "4 厘米"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "12 ÷ 4 = 3（厘米）。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "把一个饼平均分成 4 份，每份是这个饼的几分之几？",
+   "a": [
+    "四分之一",
+    "四分之二",
+    "二分之一"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "平均分成 4 份，每份是四分之一，写作 1/4。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "分子都是 1 时，分母越大，这个分数越小。",
+   "k": 0,
+   "difficulty": 3,
+   "tip": "分的份数越多，每份越小，所以 1/5 比 1/3 小。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "3/5 读作什么？",
+   "a": [
+    "五分之三",
+    "三分之五",
+    "三五分之"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "先读分母再读分子：五分之三。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "一个西瓜平均切成 8 块，吃了 3 块，吃了几分之几？（写成 3/8 这样的形式）",
+   "answers": [
+    "3/8",
+    "八分之三"
+   ],
+   "difficulty": 2,
+   "tip": "8 份里取了 3 份，是 3/8。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "1/2 和 1/3 哪个大？",
+   "a": [
+    "1/2 大",
+    "1/3 大",
+    "一样大"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "分母小的分数大，所以 1/2 大于 1/3。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "分母相同的两个分数，分子大的那个分数大。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "分母相同表示每份一样大，分子多的就拿得多。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "《铺满金色巴掌的水泥道》中“铺”的读音是？",
+   "a": [
+    "pū",
+    "pù",
+    "bū"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "这里表示把落叶铺在地上，读 pū。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "下面词语书写完全正确的是哪一项？",
+   "a": [
+    "明朗",
+    "朗明",
+    "郎朗"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "课文里用的是“明朗”，意思是晴朗、明亮。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "古诗《山行》的作者是唐代的（ ）",
+   "answers": [
+    "杜牧"
+   ],
+   "difficulty": 2,
+   "tip": "《山行》是唐代诗人杜牧写的。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《山行》中“停车坐爱枫林晚”的“坐”是什么意思？",
+   "a": [
+    "坐下",
+    "因为",
+    "座位"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "这里的“坐”是“因为”的意思。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "《赠刘景文》中“一年好景君须记”的下一句是（ ）",
+   "answers": [
+    "最是橙黄橘绿时"
+   ],
+   "difficulty": 3,
+   "tip": "原句：一年好景君须记，最是橙黄橘绿时。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《夜书所见》的作者是谁？",
+   "a": [
+    "叶绍翁",
+    "杜牧",
+    "苏轼"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "《夜书所见》是宋代叶绍翁的作品。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "“遥望洞庭山水翠”出自刘禹锡的《望洞庭》。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "《望洞庭》是唐代刘禹锡写的。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《饮湖上初晴后雨》写的是哪一处风景？",
+   "a": [
+    "西湖",
+    "洞庭湖",
+    "长江"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "这首诗写的是西湖，名句是“欲把西湖比西子”。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "《望天门山》的作者是（ ）",
+   "answers": [
+    "李白"
+   ],
+   "difficulty": 1,
+   "tip": "《望天门山》是唐代李白写的。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "“一把钥匙”中，量词“把”用在下面哪个词上最合适？",
+   "a": [
+    "钥匙",
+    "书本",
+    "大树"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "钥匙、伞、刀这类用手拿的东西用“把”。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "《司马光》中“群儿戏于庭”的“庭”指的是（ ）",
+   "answers": [
+    "庭院",
+    "院子",
+    "庭中"
+   ],
+   "difficulty": 3,
+   "tip": "“庭”就是院子、庭院。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《司马光》中，那个孩子掉进了什么？",
+   "a": [
+    "水池",
+    "瓮",
+    "井"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "原文是“一儿登瓮，足跌没水中”，掉进的是瓮。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "《司马光》中“众皆弃去”的“去”是“离开”的意思。",
+   "k": 0,
+   "difficulty": 3,
+   "tip": "“弃去”就是丢下他跑开了。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "“忽然”的近义词是哪一个？",
+   "a": [
+    "突然",
+    "慢慢",
+    "安静"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "“忽然”和“突然”意思相近。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "“快乐”的反义词是哪一个？",
+   "a": [
+    "高兴",
+    "悲伤",
+    "欢乐"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "“快乐”和“悲伤”意思相反。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "《一个粗瓷大碗》讲的是赵一曼的故事。",
+   "k": 0,
+   "difficulty": 3,
+   "tip": "课文写的是抗日英雄赵一曼。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "“富饶”的“饶”读什么？（写拼音）",
+   "answers": [
+    "ráo",
+    "rao"
+   ],
+   "difficulty": 2,
+   "tip": "“饶”读 r-á-o。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "“秋天的雨，是一把钥匙。”这句话用了什么修辞手法？",
+   "a": [
+    "比喻",
+    "拟人",
+    "夸张"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "把“秋天的雨”比作“一把钥匙”，是比喻。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "《不懂就要问》讲的是孙中山小时候的故事。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "课文写孙中山在私塾读书时不懂就问。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《铺满金色巴掌的水泥道》中，“金色巴掌”指的是什么？",
+   "a": [
+    "梧桐树的落叶",
+    "金色的手套",
+    "地上的石头"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "法国梧桐的落叶像金色的小巴掌。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "补写古诗：天门中断楚江开，（ ）",
+   "answers": [
+    "碧水东流至此回"
+   ],
+   "difficulty": 4,
+   "tip": "《望天门山》：天门中断楚江开，碧水东流至此回。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "“停车坐爱枫林晚”的下一句是什么？",
+   "a": [
+    "霜叶红于二月花",
+    "最是橙黄橘绿时",
+    "碧水东流至此回"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "霜叶红于二月花。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "《听听，秋的声音》中写到“大树抖抖手臂”，这是把大树当人来写。",
+   "k": 0,
+   "difficulty": 3,
+   "tip": "“抖抖手臂”是把物当人写，属拟人。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "“红色”用英语怎么说？",
+   "a": [
+    "red",
+    "blue",
+    "green"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "red 是红色。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "“蓝色”用英语怎么说？",
+   "answers": [
+    "blue"
+   ],
+   "difficulty": 1,
+   "tip": "blue 是蓝色。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "single",
+   "q": "“Good morning!”是什么意思？",
+   "a": [
+    "早上好",
+    "晚上好",
+    "再见"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "Good morning 是早上好。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "“黄色”用英语怎么说？",
+   "answers": [
+    "yellow"
+   ],
+   "difficulty": 1,
+   "tip": "yellow 是黄色。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "single",
+   "q": "“眼睛”用英语怎么说？",
+   "a": [
+    "eye",
+    "ear",
+    "nose"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "eye 是眼睛，ear 是耳朵，nose 是鼻子。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "“鼻子”用英语怎么说？",
+   "answers": [
+    "nose"
+   ],
+   "difficulty": 1,
+   "tip": "nose 是鼻子。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "single",
+   "q": "“猴子”用英语怎么说？",
+   "a": [
+    "monkey",
+    "duck",
+    "pig"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "monkey 是猴子。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "“大象”用英语怎么说？",
+   "answers": [
+    "elephant"
+   ],
+   "difficulty": 1,
+   "tip": "elephant 是大象。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "single",
+   "q": "“面包”用英语怎么说？",
+   "a": [
+    "bread",
+    "milk",
+    "egg"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "bread 是面包。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "“牛奶”用英语怎么说？",
+   "answers": [
+    "milk"
+   ],
+   "difficulty": 1,
+   "tip": "milk 是牛奶。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "single",
+   "q": "“Happy birthday!”是什么意思？",
+   "a": [
+    "生日快乐",
+    "新年快乐",
+    "早上好"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "Happy birthday 是生日快乐。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "数字 7 的英文怎么写？",
+   "answers": [
+    "seven"
+   ],
+   "difficulty": 1,
+   "tip": "seven 是 7。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "boolean",
+   "q": "“Goodbye”的意思是你好。",
+   "k": 1,
+   "difficulty": 1,
+   "tip": "Goodbye 是再见，你好是 Hello。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "single",
+   "q": "下面哪个词不是颜色？",
+   "a": [
+    "green",
+    "duck",
+    "black"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "duck 是鸭子，不是颜色。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "“蛋糕”用英语怎么说？",
+   "answers": [
+    "cake"
+   ],
+   "difficulty": 1,
+   "tip": "cake 是蛋糕。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "single",
+   "q": "“我有一只猫”用英语怎么说？",
+   "a": [
+    "I have a cat.",
+    "I have a dog.",
+    "I like a cat."
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "I have a cat. 我有一只猫。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "“手”用英语怎么说？",
+   "answers": [
+    "hand"
+   ],
+   "difficulty": 1,
+   "tip": "hand 是手。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "single",
+   "q": "“ten”表示数字几？",
+   "a": [
+    "8",
+    "9",
+    "10"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "ten 是 10。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "boolean",
+   "q": "“Let's eat!”的意思是“让我们吃吧！”。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "Let's eat 就是一起吃的意思。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "“鸟”用英语怎么说？",
+   "answers": [
+    "bird"
+   ],
+   "difficulty": 1,
+   "tip": "bird 是鸟。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "钟面上时针走一大格是 ( ) 小时。",
+   "answers": [
+    "1",
+    "1小时",
+    "1 小时"
+   ],
+   "difficulty": 1,
+   "tip": "时针走一大格就是 1 小时。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "分针走一小格是 ( ) 分。",
+   "answers": [
+    "1",
+    "1分",
+    "1 分"
+   ],
+   "difficulty": 1,
+   "tip": "分针走一小格是 1 分。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "秒针走一小格是 ( ) 秒。",
+   "answers": [
+    "1",
+    "1秒",
+    "1 秒"
+   ],
+   "difficulty": 1,
+   "tip": "秒针走一小格是 1 秒。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "1 时 = ( ) 分。",
+   "answers": [
+    "60",
+    "60分",
+    "60 分"
+   ],
+   "difficulty": 1,
+   "tip": "1 时 = 60 分。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "半小时 = ( ) 分。",
+   "answers": [
+    "30",
+    "30分",
+    "30 分"
+   ],
+   "difficulty": 1,
+   "tip": "半小时就是 30 分。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "2 时 = ( ) 分。",
+   "answers": [
+    "120",
+    "120分",
+    "120 分"
+   ],
+   "difficulty": 2,
+   "tip": "1 时 = 60 分，2 时 = 120 分。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "1 时 30 分 = ( ) 分。",
+   "answers": [
+    "90",
+    "90分",
+    "90 分"
+   ],
+   "difficulty": 2,
+   "tip": "60 + 30 = 90 分。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "3 分 20 秒 = ( ) 秒。",
+   "answers": [
+    "200",
+    "200秒",
+    "200 秒"
+   ],
+   "difficulty": 3,
+   "tip": "3 分 = 180 秒，再加 20 秒是 200 秒。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "90 秒 = ( ) 分 ( ) 秒。",
+   "answers": [
+    "1分30秒",
+    "1 分 30 秒",
+    "1分30",
+    "1 分 30秒"
+   ],
+   "difficulty": 3,
+   "tip": "90 秒 = 60 秒 + 30 秒 = 1 分 30 秒。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "一节课 40 分钟，课间休息 10 分钟，从 8:00 开始，几点下课？",
+   "a": [
+    "8:40",
+    "8:50",
+    "9:00"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "从 8:00 上 40 分钟到 8:40，再加 10 分钟课间，8:50 下课。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "火车 9:20 出发，行驶 1 小时 40 分，几点到达？",
+   "a": [
+    "10:40",
+    "11:00",
+    "11:20"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "9:20 加 1 小时是 10:20，再加 40 分是 11:00。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "1 分钟比 60 秒长。",
+   "k": 1,
+   "difficulty": 1,
+   "tip": "1 分正好等于 60 秒。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "时针从 3 走到 4 用了 1 小时。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "时针走一大格就是 1 小时。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "下面表示的时间最长的是？",
+   "a": [
+    "60 秒",
+    "1 分",
+    "1 时"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "1 时 = 60 分 = 3600 秒，最长。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "小明 8:15 到校，路上走了 25 分钟，他是几点出门的？",
+   "answers": [
+    "7:50",
+    "7：50",
+    "7点50分",
+    "7 点 50 分"
+   ],
+   "difficulty": 3,
+   "tip": "8:15 往前推 25 分钟是 7:50。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "从 7:40 到 8:05 一共经过了多少分钟？",
+   "answers": [
+    "25",
+    "25分",
+    "25 分钟"
+   ],
+   "difficulty": 2,
+   "tip": "7:40 到 8:00 是 20 分，再加 5 分是 25 分。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "380 + 260 = ( )。",
+   "answers": [
+    "640"
+   ],
+   "difficulty": 2,
+   "tip": "380 + 260 = 640。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "700 - 350 = ( )。",
+   "answers": [
+    "350"
+   ],
+   "difficulty": 2,
+   "tip": "700 - 350 = 350。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "406 + 394 = ( )。",
+   "answers": [
+    "800"
+   ],
+   "difficulty": 3,
+   "tip": "406 接近 400，394 接近 400，相加约 800；精确算也是 800。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "1000 - 468 = ( )。",
+   "answers": [
+    "532"
+   ],
+   "difficulty": 3,
+   "tip": "1000 - 468 = 532。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "523 + 179 = ( )。",
+   "answers": [
+    "702"
+   ],
+   "difficulty": 3,
+   "tip": "523 + 179 = 702。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "800 - 296 = ( )。",
+   "answers": [
+    "504"
+   ],
+   "difficulty": 3,
+   "tip": "800 - 296 = 504。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "估算 498 + 302，结果大约是？",
+   "a": [
+    "700",
+    "800",
+    "900"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "498 看作 500，302 看作 300，约 800。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "比 600 少 45 的数是？",
+   "a": [
+    "555",
+    "645",
+    "545"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "600 - 45 = 555。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "478 + 521 的和大于 1000。",
+   "k": 1,
+   "difficulty": 3,
+   "tip": "478 + 521 = 999，小于 1000。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "三位数加三位数的和一定是四位数。",
+   "k": 1,
+   "difficulty": 3,
+   "tip": "100 + 200 = 300，还是三位数，不一定。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "减法可以用加法来验算。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "差加减数看等不等于被减数，就是加法验算。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "一个数减去 275 得 425，这个数是 ( )。",
+   "answers": [
+    "700"
+   ],
+   "difficulty": 3,
+   "tip": "425 + 275 = 700。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "486 + 259 = ？",
+   "a": [
+    "635",
+    "745",
+    "755"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "486 + 259 = 745。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "计算 500 - 286 时，个位不够减，要向十位借位。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "个位 0 减 6 不够，需要退位。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "最大的三位数与最小的三位数的差是 ( )。",
+   "answers": [
+    "899"
+   ],
+   "difficulty": 3,
+   "tip": "999 - 100 = 899。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "一个加数是 350，和是 920，另一个加数是？",
+   "a": [
+    "570",
+    "580",
+    "670"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "920 - 350 = 570。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "324 + 258 = 582。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "324 + 258 = 582。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "下面算式中结果最大的是？",
+   "a": [
+    "500 - 180",
+    "400 + 120",
+    "650 - 80"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "500-180=320，400+120=520，650-80=570，最大的是 650-80。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "1 厘米 = ( ) 毫米。",
+   "answers": [
+    "10",
+    "10毫米",
+    "10 毫米"
+   ],
+   "difficulty": 1,
+   "tip": "1 厘米 = 10 毫米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "1 分米 = ( ) 厘米。",
+   "answers": [
+    "10",
+    "10厘米",
+    "10 厘米"
+   ],
+   "difficulty": 1,
+   "tip": "1 分米 = 10 厘米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "1 千米 = ( ) 米。",
+   "answers": [
+    "1000",
+    "1000米",
+    "1000 米"
+   ],
+   "difficulty": 1,
+   "tip": "1 千米 = 1000 米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "1 吨 = ( ) 千克。",
+   "answers": [
+    "1000",
+    "1000千克",
+    "1000 千克"
+   ],
+   "difficulty": 1,
+   "tip": "1 吨 = 1000 千克。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "5 千米 = ( ) 米。",
+   "answers": [
+    "5000",
+    "5000米",
+    "5000 米"
+   ],
+   "difficulty": 1,
+   "tip": "1 千米 = 1000 米，5 千米 = 5000 米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "3000 米 = ( ) 千米。",
+   "answers": [
+    "3",
+    "3千米",
+    "3 千米"
+   ],
+   "difficulty": 1,
+   "tip": "1000 米 = 1 千米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "8 厘米 = ( ) 毫米。",
+   "answers": [
+    "80"
+   ],
+   "difficulty": 2,
+   "tip": "1 厘米 = 10 毫米，8 厘米 = 80 毫米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "60 毫米 = ( ) 厘米。",
+   "answers": [
+    "6"
+   ],
+   "difficulty": 2,
+   "tip": "10 毫米 = 1 厘米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "4 吨 = ( ) 千克。",
+   "answers": [
+    "4000"
+   ],
+   "difficulty": 2,
+   "tip": "1 吨 = 1000 千克。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "7000 千克 = ( ) 吨。",
+   "answers": [
+    "7"
+   ],
+   "difficulty": 2,
+   "tip": "1000 千克 = 1 吨。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "一枚 1 元硬币的厚度约是 2（ ）。",
+   "a": [
+    "毫米",
+    "厘米",
+    "分米"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "硬币很薄，用毫米作单位。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "教室的长大约是 8（ ）。",
+   "a": [
+    "米",
+    "分米",
+    "千米"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "教室长度用米作单位。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "一辆卡车能装 5（ ）货物。",
+   "a": [
+    "吨",
+    "千克",
+    "克"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "卡车载重大，用吨。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "一枝铅笔大约长 18（ ）。",
+   "a": [
+    "毫米",
+    "厘米",
+    "米"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "铅笔长约 18 厘米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "1 千米比 1000 米长。",
+   "k": 1,
+   "difficulty": 1,
+   "tip": "1 千米正好等于 1000 米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "分米比厘米长。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "1 分米 = 10 厘米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "一头大象大约重 4 吨。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "成年大象体重在吨这个量级。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "2 米 = ( ) 厘米。",
+   "answers": [
+    "200"
+   ],
+   "difficulty": 2,
+   "tip": "1 米 = 100 厘米，2 米 = 200 厘米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "400 厘米 = ( ) 分米。",
+   "answers": [
+    "40"
+   ],
+   "difficulty": 3,
+   "tip": "10 厘米 = 1 分米，400 厘米 = 40 分米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "5 吨的铁比 5 吨的棉花重。",
+   "k": 1,
+   "difficulty": 2,
+   "tip": "都是 5 吨，一样重。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "小明身高 135（ ）。",
+   "a": [
+    "厘米",
+    "分米",
+    "米"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "身高用厘米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "3 的 4 倍是 ( )。",
+   "answers": [
+    "12"
+   ],
+   "difficulty": 1,
+   "tip": "3 × 4 = 12。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "20 是 5 的 ( ) 倍。",
+   "answers": [
+    "4",
+    "4倍",
+    "4 倍"
+   ],
+   "difficulty": 2,
+   "tip": "20 ÷ 5 = 4。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "8 是 2 的 ( ) 倍。",
+   "answers": [
+    "4",
+    "4倍",
+    "4 倍"
+   ],
+   "difficulty": 1,
+   "tip": "8 ÷ 2 = 4。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "6 的 7 倍是 ( )。",
+   "answers": [
+    "42"
+   ],
+   "difficulty": 2,
+   "tip": "6 × 7 = 42。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "第一行摆 4 个圆片，第二行是第一行的 3 倍，第二行摆几个？",
+   "a": [
+    "7",
+    "12",
+    "16"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "4 × 3 = 12。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "小明有 5 支铅笔，小红的铅笔是小明的 4 倍，小红有几支？",
+   "a": [
+    "9",
+    "20",
+    "25"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "5 × 4 = 20。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "求一个数是另一个数的几倍，用除法计算。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "例如 20 是 5 的几倍，用 20 ÷ 5。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "45 是 9 的 5 倍。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "9 × 5 = 45。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "一个数的 6 倍是 48，这个数是 ( )。",
+   "answers": [
+    "8"
+   ],
+   "difficulty": 3,
+   "tip": "48 ÷ 6 = 8。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "3 个 8 相加的和是多少？",
+   "a": [
+    "11",
+    "24",
+    "32"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "8 × 3 = 24。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "5 的 2 倍与 2 的 5 倍相等。",
+   "k": 0,
+   "difficulty": 3,
+   "tip": "都是 10。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "12 × 4 = ( )。",
+   "answers": [
+    "48"
+   ],
+   "difficulty": 1,
+   "tip": "10×4=40，2×4=8，合起来 48。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "30 × 6 = ( )。",
+   "answers": [
+    "180"
+   ],
+   "difficulty": 2,
+   "tip": "3×6=18，后面补一个 0 得 180。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "105 × 3 = ( )。",
+   "answers": [
+    "315"
+   ],
+   "difficulty": 3,
+   "tip": "100×3=300，5×3=15，合起来 315。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "208 × 4 = ( )。",
+   "answers": [
+    "832"
+   ],
+   "difficulty": 3,
+   "tip": "200×4=800，8×4=32，合起来 832。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "406 × 2 = ( )。",
+   "answers": [
+    "812"
+   ],
+   "difficulty": 3,
+   "tip": "400×2=800，6×2=12，合起来 812。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "7 × 0 = ( )。",
+   "answers": [
+    "0"
+   ],
+   "difficulty": 1,
+   "tip": "任何数与 0 相乘都得 0。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "250 × 4 = ( )。",
+   "answers": [
+    "1000"
+   ],
+   "difficulty": 3,
+   "tip": "25×4=100，补一个 0 得 1000。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "199 × 5 = ( )。",
+   "answers": [
+    "995"
+   ],
+   "difficulty": 3,
+   "tip": "200×5=1000，减去 1×5=5，得 995。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "估算 39 × 8，结果大约是？",
+   "a": [
+    "240",
+    "320",
+    "400"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "39 看作 40，40 × 8 = 320。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "2 × 345 = ？",
+   "a": [
+    "690",
+    "680",
+    "790"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "345×2 = 690。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "任何数与 0 相乘都得 0。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "0 乘任何数都是 0。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "125 × 8 的积是 1000。",
+   "k": 0,
+   "difficulty": 3,
+   "tip": "125×8 = 1000。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "一盒饼干 24 元，买 5 盒共 ( ) 元。",
+   "answers": [
+    "120"
+   ],
+   "difficulty": 2,
+   "tip": "24 × 5 = 120。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "每箱苹果重 18 千克，6 箱共重 ( ) 千克。",
+   "answers": [
+    "108"
+   ],
+   "difficulty": 3,
+   "tip": "18 × 6 = 108。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "一个三位数乘一位数，积一定是四位数。",
+   "k": 1,
+   "difficulty": 3,
+   "tip": "100 × 1 = 100，还是三位数。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "4 × 500 = ？",
+   "a": [
+    "200",
+    "2000",
+    "5004"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "4 × 5 = 20，补两个 0 得 2000。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "正方形边长 5 厘米，周长是 ( ) 厘米。",
+   "answers": [
+    "20"
+   ],
+   "difficulty": 2,
+   "tip": "5 × 4 = 20 厘米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "长方形长 8 厘米、宽 5 厘米，周长是 ( ) 厘米。",
+   "answers": [
+    "26"
+   ],
+   "difficulty": 2,
+   "tip": "(8 + 5) × 2 = 26 厘米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "长方形周长 24 厘米，长 8 厘米，宽是 ( ) 厘米。",
+   "answers": [
+    "4"
+   ],
+   "difficulty": 3,
+   "tip": "24 ÷ 2 = 12，12 - 8 = 4 厘米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "正方形周长 36 厘米，边长是 ( ) 厘米。",
+   "answers": [
+    "9"
+   ],
+   "difficulty": 3,
+   "tip": "36 ÷ 4 = 9 厘米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "正方形的四条边都相等。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "这是正方形的特征。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "长方形的对边相等。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "长方形对边相等，四个角是直角。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "正方形的周长是边长的 4 倍。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "周长 = 边长 × 4。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "一块正方形手帕边长 2 分米，周长是？",
+   "a": [
+    "4 分米",
+    "8 分米",
+    "2 分米"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "2 × 4 = 8 分米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "用一根 40 厘米长的铁丝围成一个正方形，边长是 ( ) 厘米。",
+   "answers": [
+    "10"
+   ],
+   "difficulty": 3,
+   "tip": "40 ÷ 4 = 10 厘米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "周长相等的两个长方形，长和宽一定相等。",
+   "k": 1,
+   "difficulty": 3,
+   "tip": "长 5 宽 3 和长 6 宽 2 周长都是 16。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "长方形有几条对称轴？",
+   "a": [
+    "1 条",
+    "2 条",
+    "4 条"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "长方形有 2 条对称轴，正方形有 4 条。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "长方形长 12 米，宽 6 米，周长是 ( ) 米。",
+   "answers": [
+    "36"
+   ],
+   "difficulty": 2,
+   "tip": "(12 + 6) × 2 = 36 米。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "把一个饼平均分成 4 份，每份是它的 ( )。",
+   "answers": [
+    "1/4",
+    "四分之一",
+    "1／4"
+   ],
+   "difficulty": 2,
+   "tip": "平均分成 4 份，每份是 1/4。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "1/2 读作 ( )。",
+   "answers": [
+    "二分之一"
+   ],
+   "difficulty": 1,
+   "tip": "1/2 读作二分之一。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "3/5 里面有几个 1/5？",
+   "answers": [
+    "3",
+    "3个",
+    "3 个"
+   ],
+   "difficulty": 3,
+   "tip": "分子是 3，就有 3 个 1/5。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "1/2 + 1/2 = ( )。",
+   "answers": [
+    "1",
+    "1/1"
+   ],
+   "difficulty": 2,
+   "tip": "两个一半合起来就是一整个。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "分数线下面的数叫分母。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "下面是分母，上面是分子。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "1/3 比 1/5 小。",
+   "k": 1,
+   "difficulty": 2,
+   "tip": "分子相同，分母越大分数越小，所以 1/3 更大。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "下面分数中最大的是？",
+   "a": [
+    "1/2",
+    "1/3",
+    "1/6"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "分子相同，分母越小分数越大。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "把一张纸分成 3 份，每份就是它的 1/3。",
+   "k": 1,
+   "difficulty": 2,
+   "tip": "必须平均分，每份才是 1/3。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "分数 2/5 的分子是？",
+   "a": [
+    "2",
+    "5",
+    "7"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "横线上面的数是分子。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "5/8 里面有几个 1/8？",
+   "answers": [
+    "5",
+    "5个",
+    "5 个"
+   ],
+   "difficulty": 3,
+   "tip": "分子是 5，有 5 个 1/8。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "1/4 + 2/4 = 3/4。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "分母不变，分子相加。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "single",
+   "q": "三(1)班喜欢足球的有 18 人，喜欢篮球的有 15 人，两种都喜欢的有 6 人，全班至少有多少人？",
+   "a": [
+    "33",
+    "27",
+    "39"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "18 + 15 - 6 = 27 人，重复的 6 人只算一次。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "boolean",
+   "q": "解决重叠问题时，重复计算的部分要减去一次。",
+   "k": 0,
+   "difficulty": 3,
+   "tip": "这就是容斥的思路。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "排队时小明从前面数是第 5 个，从后面数是第 4 个，这一队共有 ( ) 人。",
+   "answers": [
+    "8"
+   ],
+   "difficulty": 3,
+   "tip": "5 + 4 - 1 = 8 人，小明自己被数了两次。",
+   "subject": "数学",
+   "level": "三年级",
+   "bank": "三年级上册·数学"
+  },
+  {
+   "type": "text",
+   "q": "「远上寒山石径斜」的下一句是？",
+   "answers": [
+    "白云生处有人家"
+   ],
+   "difficulty": 2,
+   "tip": "出自杜牧《山行》。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《山行》的作者是谁？",
+   "a": [
+    "杜牧",
+    "李白",
+    "王之涣"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "唐代诗人杜牧。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "「停车坐爱枫林晚」的下一句是？",
+   "answers": [
+    "霜叶红于二月花"
+   ],
+   "difficulty": 2,
+   "tip": "「坐」是因为的意思。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《赠刘景文》的作者是谁？",
+   "a": [
+    "苏轼",
+    "叶绍翁",
+    "刘禹锡"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "宋代诗人苏轼。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "「荷尽已无擎雨盖」的下一句是？",
+   "answers": [
+    "菊残犹有傲霜枝"
+   ],
+   "difficulty": 3,
+   "tip": "写的是深秋景色。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《夜书所见》描写的是哪个季节的景色？",
+   "a": [
+    "秋天",
+    "春天",
+    "冬天"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "「萧萧梧叶」「秋风」都是秋景。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "「萧萧梧叶送寒声」的下一句是？",
+   "answers": [
+    "江上秋风动客情"
+   ],
+   "difficulty": 3,
+   "tip": "「萧萧」是风吹叶子的声音。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《望天门山》的作者是谁？",
+   "a": [
+    "李白",
+    "杜牧",
+    "苏轼"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "唐代诗人李白。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "「天门中断楚江开」的下一句是？",
+   "answers": [
+    "碧水东流至此回"
+   ],
+   "difficulty": 2,
+   "tip": "写长江奔流的气势。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《望洞庭》的作者是谁？",
+   "a": [
+    "刘禹锡",
+    "杜牧",
+    "叶绍翁"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "唐代诗人刘禹锡。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "「湖光秋月两相和」的下一句是？",
+   "answers": [
+    "潭面无风镜未磨"
+   ],
+   "difficulty": 3,
+   "tip": "把洞庭湖面比作没磨过的镜子。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《饮湖上初晴后雨》的作者是谁？",
+   "a": [
+    "苏轼",
+    "李白",
+    "刘禹锡"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "宋代诗人苏轼。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "「欲把西湖比西子」的下一句是？",
+   "answers": [
+    "淡妆浓抹总相宜"
+   ],
+   "difficulty": 2,
+   "tip": "「西子」指西施。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "《司马光》写的是司马光砸瓮救出小伙伴的故事。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "遇到紧急情况要冷静想办法。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "「一年好景君须记」出自《赠刘景文》。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "这首诗是苏轼写赠给刘景文的。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "「霜叶红于二月花」是说霜打过的枫叶比二月的春花还要红。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "「于」是比的意思。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "「两岸青山相对出」的下一句是？",
+   "a": [
+    "孤帆一片日边来",
+    "碧水东流至此回",
+    "轻舟已过万重山"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "出自李白《望天门山》。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "《山行》描写的是春天的景色。",
+   "k": 1,
+   "difficulty": 2,
+   "tip": "写的是深秋的枫林景色。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "「遥望洞庭山水翠」的下一句是？",
+   "answers": [
+    "白银盘里一青螺"
+   ],
+   "difficulty": 3,
+   "tip": "把君山比作青螺。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "「长大」中的「长」读什么？",
+   "a": [
+    "cháng",
+    "zhǎng"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "表示生长、长大时读 zhǎng。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "下面词语书写完全正确的是？",
+   "a": [
+    "再接再励",
+    "再接再厉",
+    "再接再利"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "「厉」通「砺」，是磨快的意思。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "「美丽」的近义词是？",
+   "a": [
+    "漂亮",
+    "丑陋",
+    "安静"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "意思相近。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "「宽阔」的反义词是？",
+   "a": [
+    "狭窄",
+    "宽大",
+    "广阔"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "意思相反。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "「霜」的部首是？",
+   "a": [
+    "雨",
+    "相",
+    "木"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "「霜」是雨字头。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "「堤」的读音是？",
+   "a": [
+    "dī",
+    "tí",
+    "dǐ"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "如「河堤」「堤坝」。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "「富饶」的「饶」意思是多、丰富。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "富饶就是物产丰富。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "「旅」可以组成词语「旅行」。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "旅游、旅行都用「旅」。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "下面哪个成语表示「非常高兴」？",
+   "a": [
+    "欣喜若狂",
+    "愁眉苦脸",
+    "目瞪口呆"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "「若狂」像发狂一样高兴。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "「灯不拨不亮，( )。」",
+   "answers": [
+    "理不辩不明"
+   ],
+   "difficulty": 2,
+   "tip": "谚语，讲究道理要辩清楚。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "「人心齐，( )。」",
+   "answers": [
+    "泰山移"
+   ],
+   "difficulty": 2,
+   "tip": "谚语，讲团结的力量。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "「一个篱笆三个桩，( )。」",
+   "answers": [
+    "一个好汉三个帮"
+   ],
+   "difficulty": 2,
+   "tip": "谚语，讲互相帮助。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "下面搭配最恰当的是？",
+   "a": [
+    "蓝蓝的天空",
+    "甜甜的天空",
+    "细细的天空"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "颜色搭配天空。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "「安静」的反义词是「热闹」。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "意思相反。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "「睡觉」中的「觉」读什么？",
+   "a": [
+    "jué",
+    "jiào"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "睡觉读 jiào，觉得读 jué。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "「蚂蚁」的「蚂」和「码头」的「码」读音相同。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "都读 mǎ。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "一（ ）秋雨。",
+   "answers": [
+    "场"
+   ],
+   "difficulty": 1,
+   "tip": "秋雨用「一场」。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "「五光十色」形容颜色非常多。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "课文里用来写西沙群岛的海水。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "「萧萧」在《夜书所见》里形容什么声音？",
+   "a": [
+    "风吹梧桐叶的声音",
+    "流水声",
+    "鸟叫声"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "「萧萧梧叶送寒声」。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《秋天的雨》把秋雨比作什么？",
+   "a": [
+    "一把钥匙",
+    "一把扇子",
+    "一支画笔"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "课文开头说「秋天的雨，是一把钥匙」。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "《富饶的西沙群岛》写了西沙群岛的海水和海岛。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "课文按海水、海底、海岛的顺序写。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《掌声》中，英子在同学们的掌声里变得怎么样了？",
+   "a": [
+    "爱哭",
+    "开朗自信",
+    "骄傲"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "掌声给了她勇气。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《灰雀》中列宁是怎么让小男孩认识到错误的？",
+   "a": [
+    "把灰雀抓走了",
+    "故意装作找灰雀",
+    "骂了男孩一顿"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "列宁用谈话的方式保护了男孩的自尊。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "《手术台就是阵地》写的是白求恩在战火中坚持给伤员做手术。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "赞扬他坚守岗位的精神。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《大自然的声音》里说风是？",
+   "a": [
+    "大自然的音乐家",
+    "大自然的画家",
+    "大自然的歌手"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "课文说「风，是大自然的音乐家」。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "《美丽的小兴安岭》是按春、夏、秋、冬的顺序写的。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "按季节顺序写一年四季的景色。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《铺满金色巴掌的水泥道》中「金色巴掌」指的是？",
+   "a": [
+    "梧桐树的落叶",
+    "阳光",
+    "手掌印"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "法国梧桐的落叶像金色的小巴掌。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "《花的学校》的作者是印度诗人泰戈尔。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "选自泰戈尔《新月集》。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "single",
+   "q": "《不懂就要问》里，孙中山向先生提问前先做了什么？",
+   "a": [
+    "背完了书",
+    "写完了字",
+    "唱了一首歌"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "他背熟课文后才壮着胆子提问。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "boolean",
+   "q": "《秋天的雨》里写了秋天带来丰收和欢乐。",
+   "k": 0,
+   "difficulty": 1,
+   "tip": "课文结尾写丰收和欢乐。",
+   "subject": "语文",
+   "level": "三年级",
+   "bank": "三年级上册·语文"
+  },
+  {
+   "type": "text",
+   "q": "「红色的」用英语怎么说？",
+   "answers": [
+    "red"
+   ],
+   "difficulty": 1,
+   "tip": "colour 颜色词。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "「蓝色」用英语怎么说？",
+   "answers": [
+    "blue"
+   ],
+   "difficulty": 1,
+   "tip": "blue 蓝色。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "single",
+   "q": "下面哪个词表示颜色？",
+   "a": [
+    "brown",
+    "bear",
+    "bread"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "brown 棕色，bear 熊，bread 面包。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语"
+  },
+  {
+   "type": "text",
+   "q": "「眼睛」用英语怎么说？",
+   "answers": [
+    "eye",
+    "eyes"
+   ],
+   "difficulty": 1,
+   "tip": "两个用 eyes。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "「手」用英语怎么说？",
+   "answers": [
+    "hand"
+   ],
+   "difficulty": 1,
+   "tip": "hand 手。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "「熊猫」用英语怎么说？",
+   "answers": [
+    "panda"
+   ],
+   "difficulty": 1,
+   "tip": "panda 熊猫。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "single",
+   "q": "elephant 是什么动物？",
+   "a": [
+    "大象",
+    "猴子",
+    "老虎"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "elephant 大象。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语"
+  },
+  {
+   "type": "text",
+   "q": "「牛奶」用英语怎么说？",
+   "answers": [
+    "milk"
+   ],
+   "difficulty": 1,
+   "tip": "milk 牛奶。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "「面包」用英语怎么说？",
+   "answers": [
+    "bread"
+   ],
+   "difficulty": 1,
+   "tip": "bread 面包。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "数字「九」用英语怎么写？",
+   "answers": [
+    "nine"
+   ],
+   "difficulty": 1,
+   "tip": "nine 九。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "single",
+   "q": "数字 3 用英语怎么写？",
+   "a": [
+    "tree",
+    "three",
+    "third"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "three 三。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语"
+  },
+  {
+   "type": "single",
+   "q": "早上见面应该说？",
+   "a": [
+    "Good morning",
+    "Good night",
+    "Good bye"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "早上用 Good morning。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语"
+  },
+  {
+   "type": "single",
+   "q": "「谢谢你」用英语怎么说？",
+   "a": [
+    "Thank you",
+    "Sorry",
+    "Hello"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "Thanks 也可以。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语"
+  },
+  {
+   "type": "text",
+   "q": "「你好吗？」用英语怎么说？",
+   "answers": [
+    "How are you?",
+    "How are you",
+    "how are you?"
+   ],
+   "difficulty": 2,
+   "tip": "回答可以说 I'm fine, thank you.",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "single",
+   "q": "「生日快乐」用英语怎么说？",
+   "a": [
+    "Happy birthday",
+    "Happy New Year",
+    "Merry Christmas"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "birthday 生日。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语"
+  },
+  {
+   "type": "single",
+   "q": "「对不起」用英语怎么说？",
+   "a": [
+    "Sorry",
+    "Thanks",
+    "Please"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "Sorry 对不起。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语"
+  },
+  {
+   "type": "text",
+   "q": "「我叫小明」用英语怎么说？",
+   "answers": [
+    "My name is Xiaoming",
+    "My name is Xiaoming.",
+    "I'm Xiaoming",
+    "I am Xiaoming"
+   ],
+   "difficulty": 2,
+   "tip": "自我介绍用 My name is …",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "text",
+   "q": "「我有一支铅笔」用英语怎么说？",
+   "answers": [
+    "I have a pencil",
+    "I have a pencil.",
+    "i have a pencil"
+   ],
+   "difficulty": 2,
+   "tip": "I have … 表示我有……",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  },
+  {
+   "type": "single",
+   "q": "别人问 How old are you? 应该怎么回答？",
+   "a": [
+    "I'm nine.",
+    "I'm fine.",
+    "I'm here."
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "问年龄，要回答几岁。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语"
+  },
+  {
+   "type": "single",
+   "q": "别人问 What's this? 应该怎么回答？",
+   "a": [
+    "It's a duck.",
+    "Yes, it is.",
+    "I'm a duck."
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "问这是什么，用 It's a …",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语"
+  },
+  {
+   "type": "boolean",
+   "q": "colour 的意思是「颜色」。",
+   "k": 0,
+   "difficulty": 2,
+   "tip": "colour = 颜色。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语"
+  },
+  {
+   "type": "text",
+   "q": "「我喜欢苹果」用英语怎么说？",
+   "answers": [
+    "I like apples",
+    "I like apples.",
+    "i like apples"
+   ],
+   "difficulty": 2,
+   "tip": "喜欢某物用 like。",
+   "subject": "英语",
+   "level": "三年级",
+   "bank": "三年级上册·英语",
+   "language": "en-US"
+  }
+ ]
 }
